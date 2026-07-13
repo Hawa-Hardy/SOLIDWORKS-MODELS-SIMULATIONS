@@ -1,0 +1,54 @@
+Model: basic turbine.SLDPRT
+Project name: basic_turbine-internal flow
+Config name: Default
+Project path: C:\Users\hawah\Desktop\Upwork\Solidworks Practice\Simulation Practice\Basic turbine\1\1.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 4038
+    Fluid cells: 4038
+    Solid cells: 4459
+    Fluid cells containing solids: 2162
+
+
+Geometry preparation finished: 14:40:02
+Geometry preparation time: 00:00:01
+Solver CPU time: 00:00:29
+Iterations: 115
+Travels: 2.87500
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 14:40:30
+CPU time per last iteration: 00:00:00
+CPU time left: 00:00:00
+Iterations per 1 travel: 41
+
+Goals
+    Name                             | Unit (SI)          | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    SG Average Velocity 1            | speed and velocity |            8.71 |     100.0 |            0.05 |            0.00 | On
+    SG Average Temperature (Fluid) 2 | temperature        |          293.21 |     100.0 |            0.00 |            0.00 | On
+
+Project details
+    Default fluids: Water
+    Analysis type: Internal
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2022  x64 / 5482 / SOLVER ver. efd_dev.5398_09.07.2021+ruoghness_1
+    CAD version: SOLIDWORKS 2022 SP1.0
+    Computer name: DESKTOP-P3H0A5T
+    User name: hawah
+    Operating system: Windows 10 (or higher) (Version 10.0.26200)
+    Processors: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+    Number of cores: 8
+    Memory: 2320 MB / 16129 MB
+

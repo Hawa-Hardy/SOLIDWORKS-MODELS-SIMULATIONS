@@ -1,0 +1,7 @@
+2026-Jul-02 14:40:30
+Computer name:	DESKTOP-P3H0A5T
+Number of cores used in calculation:	8
+Configuration name:	Default
+Project name:	basic_turbine-internal flow
+
+Warnings on last iteration: 

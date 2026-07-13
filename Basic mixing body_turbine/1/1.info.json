@@ -1,0 +1,78 @@
+{
+    "version": 0,
+    "model_name": "basic turbine.SLDPRT",
+    "project_name": "basic_turbine-internal flow",
+    "config_name": "Default",
+    "project_path": "C:\\Users\\hawah\\Desktop\\Upwork\\Solidworks Practice\\Simulation Practice\\Basic turbine\\1\\1.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 4038,
+        "cells_fluid": 4038,
+        "cells_solid": 4459,
+        "cells_fluid_containing_solid": 2162
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "14:40:02+0000",
+        "prepare_geometry_total_time": 1,
+        "cpu_time_solver_total": 29,
+        "iteration": 115,
+        "travel": 2.874999999999994,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "14:40:30+0000",
+        "cpu_time_per_last_iter": 0,
+        "cpu_time_left": 0,
+        "iterations_per_travel": 41
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "SG Average Velocity 1",
+                "unit": "speed and velocity",
+                "value": 8.710754473541353,
+                "progress": 100.0,
+                "criteria": 0.049145601193085475,
+                "delta": 0.0037014261792336356,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Average Temperature (Fluid) 2",
+                "unit": "temperature",
+                "value": 293.2135466630615,
+                "progress": 100.0,
+                "criteria": 0.0009542056309089513,
+                "delta": 0.0009480513447783778,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Water"
+        ],
+        "analysis_type": "internal",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2022  x64 / 5482 / SOLVER ver. efd_dev.5398_09.07.2021+ruoghness_1",
+        "cad_version": "SOLIDWORKS 2022 SP1.0",
+        "computer_name": "DESKTOP-P3H0A5T",
+        "user_name": "hawah",
+        "os": "Windows 10 (or higher) (Version 10.0.26200)",
+        "cpu": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "number_of_cores": 8,
+        "memory_avail": 2320,
+        "memory_total": 16129
+    }
+}
