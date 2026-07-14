@@ -1,0 +1,9 @@
+2026-Jul-02 14:46:55
+Computer name:	DESKTOP-P3H0A5T
+Number of cores used in calculation:	8
+Configuration name:	Default
+Project name:	2. Heat Transfer Analysis - Pipe and Block
+
+Warnings on last iteration: 
+1. Real gas parameters (pressure and/or temperature) are outside the definitional domain of substance properties :
+	T>Tmax

@@ -1,0 +1,101 @@
+{
+    "version": 0,
+    "model_name": "tube piping.SLDPRT",
+    "project_name": "2. Heat Transfer Analysis - Pipe and Block",
+    "config_name": "Default",
+    "project_path": "C:\\Users\\hawah\\Desktop\\Upwork\\Solidworks Practice\\Simulation Practice\\Box and pipe\\1\\1.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 20852,
+        "cells_fluid": 13202,
+        "cells_solid": 7650,
+        "cells_fluid_containing_solid": 8664
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "14:45:32+0000",
+        "prepare_geometry_total_time": 3,
+        "cpu_time_solver_total": 98,
+        "iteration": 89,
+        "travel": 1.8828400871977597,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "14:46:54+0000",
+        "cpu_time_per_last_iter": 12,
+        "cpu_time_left": 9,
+        "iterations_per_travel": 48
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Maximum Total Pressure 1",
+                "unit": "pressure and stress",
+                "value": 103125.97480431898,
+                "progress": 100.0,
+                "criteria": 871.4180997342444,
+                "delta": 13.491525116973207,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Maximum Temperature (Fluid) 2",
+                "unit": "temperature",
+                "value": 547.9220141850208,
+                "progress": 100.0,
+                "criteria": 15.424806877061943,
+                "delta": 9.548406786863325,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Maximum Temperature (Fluid) 1",
+                "unit": "temperature",
+                "value": 400.8899616945789,
+                "progress": 100.0,
+                "criteria": 5.6868312329035104,
+                "delta": 5.558277804150407,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Maximum Total Temperature 2",
+                "unit": "temperature",
+                "value": 455.001,
+                "progress": 100.0,
+                "criteria": 10.13649422951711,
+                "delta": 0.0,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Refrigerant R-134a",
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": true,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": true,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2022  x64 / 5482 / SOLVER ver. efd_dev.5398_09.07.2021+ruoghness_1",
+        "cad_version": "SOLIDWORKS 2022 SP1.0",
+        "computer_name": "DESKTOP-P3H0A5T",
+        "user_name": "hawah",
+        "os": "Windows 10 (or higher) (Version 10.0.26200)",
+        "cpu": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "number_of_cores": 8,
+        "memory_avail": 2475,
+        "memory_total": 16129
+    }
+}

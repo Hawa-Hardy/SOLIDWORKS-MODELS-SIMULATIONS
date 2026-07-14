@@ -1,0 +1,56 @@
+Model: tube piping.SLDPRT
+Project name: 2. Heat Transfer Analysis - Pipe and Block
+Config name: Default
+Project path: C:\Users\hawah\Desktop\Upwork\Solidworks Practice\Simulation Practice\Box and pipe\1\1.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 20852
+    Fluid cells: 13202
+    Solid cells: 7650
+    Fluid cells containing solids: 8664
+
+
+Geometry preparation finished: 14:45:32
+Geometry preparation time: 00:00:03
+Solver CPU time: 00:01:38
+Iterations: 89
+Travels: 1.88284
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 14:46:54
+CPU time per last iteration: 00:00:12
+CPU time left: 00:00:09
+Iterations per 1 travel: 48
+
+Goals
+    Name                             | Unit (SI)           | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Maximum Total Pressure 1      | pressure and stress |       103125.97 |     100.0 |          871.42 |           13.49 | On
+    GG Maximum Temperature (Fluid) 2 | temperature         |          547.92 |     100.0 |           15.42 |            9.55 | On
+    SG Maximum Temperature (Fluid) 1 | temperature         |          400.89 |     100.0 |            5.69 |            5.56 | On
+    SG Maximum Total Temperature 2   | temperature         |          455.00 |     100.0 |           10.14 |            0.00 | On
+
+Project details
+    Default fluids: Refrigerant R-134a, Air
+    Analysis type: External
+    Heat conduction in solids: On
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: On
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2022  x64 / 5482 / SOLVER ver. efd_dev.5398_09.07.2021+ruoghness_1
+    CAD version: SOLIDWORKS 2022 SP1.0
+    Computer name: DESKTOP-P3H0A5T
+    User name: hawah
+    Operating system: Windows 10 (or higher) (Version 10.0.26200)
+    Processors: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+    Number of cores: 8
+    Memory: 2475 MB / 16129 MB
+
