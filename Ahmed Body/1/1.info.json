@@ -1,0 +1,78 @@
+{
+    "version": 0,
+    "model_name": "Ahmed Body.SLDPRT",
+    "project_name": "External Flow Simulation-Car",
+    "config_name": "Default",
+    "project_path": "C:\\Users\\hawah\\Desktop\\Upwork\\Solidworks Practice\\Simulation Practice\\Ahmed Body\\1\\1.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 50900,
+        "cells_fluid": 50900,
+        "cells_solid": 896,
+        "cells_fluid_containing_solid": 512
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "15:31:53+0000",
+        "prepare_geometry_total_time": 3,
+        "cpu_time_solver_total": 70,
+        "iteration": 75,
+        "travel": 1.0118714486213993,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "15:32:57+0000",
+        "cpu_time_per_last_iter": 4,
+        "cpu_time_left": 203,
+        "iterations_per_travel": 75
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Force (X) 1",
+                "unit": "force",
+                "value": 78.88704521892308,
+                "progress": 100.0,
+                "criteria": 6.623864635304238,
+                "delta": 4.419643851887855,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "Equation Goal 1",
+                "unit": "no units",
+                "value": 0.20124246229317108,
+                "progress": 100.0,
+                "criteria": 0.016897613865572033,
+                "delta": 0.011274601662979222,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": true,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2022  x64 / 5482 / SOLVER ver. efd_dev.5398_09.07.2021+ruoghness_1",
+        "cad_version": "SOLIDWORKS 2022 SP1.0",
+        "computer_name": "DESKTOP-P3H0A5T",
+        "user_name": "hawah",
+        "os": "Windows 10 (or higher) (Version 10.0.26200)",
+        "cpu": "Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz",
+        "number_of_cores": 8,
+        "memory_avail": 2881,
+        "memory_total": 16129
+    }
+}

@@ -1,0 +1,54 @@
+Model: Ahmed Body.SLDPRT
+Project name: External Flow Simulation-Car
+Config name: Default
+Project path: C:\Users\hawah\Desktop\Upwork\Solidworks Practice\Simulation Practice\Ahmed Body\1\1.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 50900
+    Fluid cells: 50900
+    Solid cells: 896
+    Fluid cells containing solids: 512
+
+
+Geometry preparation finished: 15:31:53
+Geometry preparation time: 00:00:03
+Solver CPU time: 00:01:10
+Iterations: 75
+Travels: 1.01187
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 15:32:57
+CPU time per last iteration: 00:00:04
+CPU time left: 00:03:23
+Iterations per 1 travel: 75
+
+Goals
+    Name            | Unit (SI) | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Force (X) 1  | force    |           78.89 |     100.0 |            6.62 |            4.42 | On
+    Equation Goal 1 | no units |            0.20 |     100.0 |            0.02 |            0.01 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: On
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2022  x64 / 5482 / SOLVER ver. efd_dev.5398_09.07.2021+ruoghness_1
+    CAD version: SOLIDWORKS 2022 SP1.0
+    Computer name: DESKTOP-P3H0A5T
+    User name: hawah
+    Operating system: Windows 10 (or higher) (Version 10.0.26200)
+    Processors: Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz
+    Number of cores: 8
+    Memory: 2881 MB / 16129 MB
+
